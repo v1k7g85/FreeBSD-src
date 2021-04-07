@@ -361,7 +361,7 @@ options 	XENHVM			# Xen HVM kernel infrastructure
 device		xenpci			# Xen HVM Hypervisor services driver
 
 # Netmap provides direct access to TX/RX rings on supported NICs
-device		netmap			# netmap(4) support
+#device		netmap			# netmap(4) support
 
 # evdev interface
 options 	EVDEV_SUPPORT		# evdev support in legacy drivers
